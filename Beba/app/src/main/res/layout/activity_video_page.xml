@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VideoPageActivity">
+
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/grey_brown"
+      />
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:src="@drawable/beba_1"
+      android:requiresFadingEdge="vertical"
+      android:id="@+id/image"
+      android:contentDescription="@string/todo" />
+  <VideoView
+      android:layout_width="match_parent"
+      android:layout_height="450dp"
+      android:id="@+id/video"
+      android:layout_below="@+id/image"
+      android:backgroundTint="@color/white"
+
+      />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/delivery"
+    android:layout_below="@+id/video"
+    android:background="@color/purple_200"
+    android:text="@string/New_delivery"
+    android:gravity="center"
+    android:textSize="35sp"
+    android:textColor="@color/black"
+    android:textStyle="bold|normal"
+    android:clickable="true"
+    android:onClick="delivery"
+    android:focusable="true" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Beba</string>
+
+    <string name="EXTRA_MESSAGE">Enter a message</string>
+    <string name="enter_password">enter password</string>
+    <string name="login">login</string>
+    <string name="enter_your_email">enter_your_email</string>
+    <string name="enter_email">enter mail</string>
+    <string name="register">register</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="log_in">log in</string>
+    <string name="sign_up">sign up?</string>
+
+    <string name="enter_email_account">email account</string>
+    <string name="New_delivery">MAKE DELIVERY</string>
+    <string name="account">Account</string>
+    <string name="my_deliveries">Delivery</string>
+    <string name="help">Help</string>
+    <string name="make_delivery">Help</string>
+    <string name="todo">TODO</string>
+</resources>

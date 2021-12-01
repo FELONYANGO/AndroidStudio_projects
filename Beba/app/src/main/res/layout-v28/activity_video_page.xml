@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VideoPageActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/image"
+        android:background="@drawable/beba"
+         android:outlineAmbientShadowColor="@color/teal_200"
+        android:contentDescription="TODO" />
+    <VideoView
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:layout_below="@+id/image"
+    android:id="@+id/video"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/video"
+        android:id="@+id/mainView"
+       android:text="@string/New_delivery"
+        android:textSize="48sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/mainView"
+        android:background="@color/purple_700"
+>
+    <TextView
+           android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/account"
+            android:layout_below="@+id/mainView"
+            android:textSize="35sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+          android:layout_gravity="center"
+            android:id="@+id/account"
+            android:clickable="true"
+            />
+
+
+      <TextView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="@string/my_deliveries"
+            android:layout_below="@+id/mainView"
+            android:textSize="35sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+
+            android:id="@+id/del"
+            android:layout_marginLeft="4dp"
+            android:clickable="true"
+            android:layout_gravity="center"
+          android:focusable="true" />
+
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/mainView"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="4dp"
+            android:clickable="true"
+            android:text="@string/help"
+            android:textColor="#0288D1"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+</RelativeLayout>

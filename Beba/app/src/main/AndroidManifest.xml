@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beba">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/beba_1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/beba_1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Beba">
+        <activity
+            android:name=".HelpPage"
+            android:exported="true" />
+        <activity
+            android:name=".MyDelivery"
+            android:exported="true" />
+        <activity
+            android:name=".AccountPage"
+            android:exported="true" />
+        <activity
+            android:name=".DeliveryPage"
+            android:exported="true" />
+        <activity
+            android:name=".VideoPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DisplaySignUP"
+            android:exported="true" />
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
