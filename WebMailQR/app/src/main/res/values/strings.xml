@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WebMailQR</string>
+    <string name="scan_barcode">scan_barcode</string>
+</resources>
