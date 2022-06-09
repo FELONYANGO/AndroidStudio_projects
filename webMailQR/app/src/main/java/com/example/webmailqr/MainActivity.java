@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
         btnScanCode=findViewById(R.id.btnScanCode);
         btnScanCode.setOnClickListener(new View.OnClickListener() {
             @Override
